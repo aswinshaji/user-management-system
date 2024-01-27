@@ -25,7 +25,7 @@ app.set('view engine', 'hbs');
 //Connection Pool
 const pool = mysql.createPool({
     connectionLimit : 100,
-    host            : "demo-db.chbihdstmhrd.us-east-2.rds.amazonaws.com",
+    host            : /*"demo-db.chbihdstmhrd.us-east-2.rds.amazonaws.com"*/,
     port            : "3306",
     user            : "root",
     password        : "projectwork",
